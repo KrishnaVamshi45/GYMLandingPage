@@ -172,3 +172,121 @@ footer {
     font-size: 36px;
   }
 }
+
+@media (max-width: 480px) {
+
+  /* NAVBAR */
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  .nav-links {
+    display: none; /* hide menu for mobile */
+  }
+
+  /* HERO */
+  .hero {
+    padding: 0 15px;
+  }
+
+  .hero-content h2 {
+    font-size: 28px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .btn {
+    padding: 10px 22px;
+    font-size: 16px;
+  }
+
+  /* PROGRAMS */
+  .programs {
+    padding: 60px 20px;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  /* PRICING */
+  .pricing {
+    padding: 60px 20px;
+  }
+
+  .price-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .price-card {
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+
+  /* NAVBAR */
+  .navbar {
+    padding: 18px 30px;
+  }
+
+  .logo {
+    font-size: 26px;
+  }
+
+  .nav-links li {
+    margin-left: 15px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+  }
+
+  /* HERO */
+  .hero-content h2 {
+    font-size: 38px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+
+  /* PROGRAMS */
+  .programs {
+    padding: 80px 30px;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .card {
+    width: 45%;
+  }
+
+  /* PRICING */
+  .pricing {
+    padding: 70px 30px;
+  }
+
+  .price-cards {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .price-card {
+    width: 45%;
+  }
+}
